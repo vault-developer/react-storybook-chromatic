@@ -1,1 +1,1 @@
-### POC example storybook + chromatic integration.
+### POC example storybook + chromatic integration
