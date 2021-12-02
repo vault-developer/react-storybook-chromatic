@@ -7,6 +7,10 @@ import * as HeaderStories from '../Header/Header.stories';
 export default {
   title: 'Example/Page',
   component: Page,
+  parameters: {
+    // Set the viewports in Chromatic at a component level.
+    chromatic: { viewports: [320, 1200] },
+  },
 } as ComponentMeta<typeof Page>;
 
 const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
